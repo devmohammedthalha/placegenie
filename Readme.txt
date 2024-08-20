@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Bikin
-Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Your magical platform for placements and career growth. Empowering students and job seekers with essential tools, resources, and guidance to ace interviews, land dream jobs, and achieve career success. Unlock your potential with Place Genie.
