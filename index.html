@@ -47,6 +47,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdM80gqAAAAAIHdH8JyxuIGGjKviFuKLS1jra_C"></script>
+  <!-- Your code -->
+
 </head>
 
 <body>
@@ -189,6 +192,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    window.onload = function() {
+      grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6LdM80gqAAAAAIHdH8JyxuIGGjKviFuKLS1jra_C', { action: 'ENTER_WEBSITE' });
+        // You can now use the token in your backend or for further processing
+      });
+    };
+  </script>
+
+  
 
 </body>
 
